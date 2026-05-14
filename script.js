@@ -33,11 +33,11 @@ form.addEventListener("submit", async (e) => {
   // CAMPOS
   const nome = document.getElementById("nome").value;
   const contato = document.getElementById("contato").value;
-  const roupas = document.getElementById("roupas").checked;
-  const calcados = document.getElementById("calcados").checked;
-  const cama = document.getElementById("cama").checked;
-  const outros = document.getElementById("outros").checked;
-
+  const jaDirijo = document.getElementById("checkbox1").checked;
+  const tenhoNocao = document.getElementById("checkbox2").checked;
+  const tenhoDificuldade = document.getElementById("checkbox3").checked;
+  const nuncaDirigi = document.getElementById("checkbox4").checked;
+  
   // SALVA TODOS EM UM ÚNICO BANCO
 
   // troquei "doacoes" por "cliente"
@@ -46,10 +46,10 @@ form.addEventListener("submit", async (e) => {
       nome: nome,
       contato: contato,
       itens: {
-        roupas: roupas,
-        calcados: calcados,
-        cama: cama,
-        outros: outros
+        jaDirijo: jaDirijo,
+        tenhoNocao: tenhoNocao,
+        tenhoDificuldade: tenhoDificuldade,
+        nuncaDirigi:nuncaDirigi
       },
       data: new Date()
 
