@@ -10,6 +10,14 @@
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    background-color: rgba(185, 191, 152, 0.267);
  }
+ main{
+  min-width: 300px;
+  max-width: 1500px;
+  margin: auto;
+ }
+ main img{
+  width: 100px;
+ }
 
  h1 {
    color: black;
