@@ -1,6 +1,5 @@
  /*  LIMPAR FORMATAÇÕES*/
  * {
-
    margin: 0;
    padding: 0;
  }
@@ -10,30 +9,8 @@
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    background-color: rgba(185, 191, 152, 0.267);
  }
- main{
-  min-width: 300px;
-  max-width: 1500px;
-  margin: auto;
- }
- main img{
-  width: 100px;
- }
 
- h1 {
-   color: black;
- }
-
- p {
-   text-indent: 10px;
-   font-size: 15px;
- }
-
- h2 {
-
-   text-align: center;
- }
-
- #header {
+ .logo {
    text-align: center;
    background-color: rgb(209, 234, 45);
    color: rgb(13, 24, 16);
@@ -42,205 +19,125 @@
    font-size: 30px;
    padding: 10px;
    border-radius: 10px;
-   /*padding: 15px;*/
-   /* padding-left: 150px;*/
-
  }
 
- #menu :hover {
+ header h1 .white {
+   color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
+ }
 
+ header img {
+   height: 100px;
+ }
+
+ nav button {
+   width: 300px;
+   height: 40px;
+   background: rgb(45, 234, 130);
+   margin: 12px;
+   margin-left: 20px;
+   border-radius: 10px;
+ }
+
+ nav button:hover {
    background-color: white;
-
  }
 
- #logo {
-
-   padding: 5px;
-
-
- }
-
- a #menu {
-   font-size: 0px;
- }
-
- #menu {
+ nav {
    display: flex;
    justify-content: center;
    /* centraliza os botões */
    gap: 0;
    /* espaço entre eles */
-
-
  }
 
- #menu button {
-   width: 300px;
-   height: 40px;
-   /*width: 1470px;*/
-   background: rgb(45, 234, 130);
-   margin: 12px;
-   margin-left: 20px;
-   border-radius: 10px;
-
- }
-
- #menu button a :hover {
-   background: rgb(234, 158, 45);
-   background: white;
- }
-
- #posts {
-   width: 660px;
-   float: left;
-
- }
-
- #content {
-   width: 920px;
-   margin: 0 auto;
-   padding: 0px;
-   margin-top: 0px;
-   padding-top: 30px;
-
- }
-
- header a:link,
- header a:visited {
-
-   color: #ffff;
-   padding: 8px 12px;
- }
-
- #header a:hover {
-   color: rgb(234, 158, 45);
-   background: #ffff;
+ nav button a {
    text-decoration: none;
  }
 
- .white {
-   color: white;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
-
- }
-
- .imagem {
-   height: 412px;
-   width: 500px;
-   margin-bottom: 90px;
-   margin-left: 45px;
-   /*margin: auto; 
-      display: block;*/
-
- }
-
- .imagemHeader {
-
-   height: 100px;
-
-
- }
-
- .post {
-   margin-top: 0px;
-   padding: 25px;
-   margin-bottom: 50px;
-   background: #ffff;
-   text-align: justify;
-   font-size: 10px;
-
- }
-
- .data-post {
-
-   font-size: 13px;
-   padding-bottom: 10px;
-   margin-bottom: 10px;
-   display: block;
- }
-
- /*.imag-post{
-    width: 360px;
-    
-    
-    }*/
- #reght-side {
-   width: 240px;
-   float: right;
-   margin: 0px;
-
- }
-
- #content-rigth {
-
-   background: #ffff;
-   padding-left: 10px;
-   margin-bottom: 20px
-  
- }
-
- .post-rigth0 {
-   font-size: 13px;
-   padding: 10px;
-   border-bottom: 1px dotted #cccc;
-   margin: 2px;
-
- }
-
- .post-rigth1 {
-   font-size: 13px;
-   padding: 10px;
-   border-bottom: 1px dotted #cccc;
-   margin: 2px;
-
- }
-
- .post-rigth2 {
-   font-size: 15px;
-   padding: 5px;
-   border-bottom: 1px dotted #cccc;
-   margin: 2px;
-   margin-top: 10px;
-   margin: auto;
-   display: block;
-   
- }
-
- .content-rigth {
-
-   text-align: center;
-   background: #ffff;
-   padding: 10px;
-   padding-left: 10px;
-   margin-bottom: 30px
- }
-
- a {
-   text-decoration: none;
-
-
- }
-
- a:link,
+ nav a:link,
  a:visited {
-
    color: black;
    font-size: 15px;
    font-family: 'Times New Roman', Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
  }
 
- .cat {
-   background-color: aqua;
+ main {
+   display: flex;
+   /* Coloca os elementos lado a lado */
+   justify-content: space-around;
+   /* Espaço entre eles */
+   align-items: flex-start;
+   /* Alinha pelo topo */
+   max-width: 1200px;
+   margin: auto;
+   gap: 0;
 
  }
 
+ main section img {
+   height: 412px;
+   width: 500px;
 
- #footer {
+
+ }
+
+ .conteudo {
+   margin: 10px;
+   text-align: center;
+ }
+
+ aside {
+   background: #ffff;
+   padding-left: 10px;
+   margin: 35px;
+ }
+
+ .perfil {
+   height: 412px;
+   width: 500px;
+ }
+
+ aside p {
+   text-indent: 10px;
+   font-size: 15px;
+ }
+
+ aside h2 {
+   text-align: center;
+ }
+
+ footer {
    width: 890px;
    clear: both;
    text-align: center;
    padding: 15px;
    background: rgb(45, 234, 130);
    margin-left: 4px;
+ }
 
+ /* Responsividade para telas menores */
+ @media (max-width: 768px) {
+   main {
+     flex-direction: column;
+     /* empilha os elementos */
+     align-items: center;
+     /* centraliza */
+   }
+
+   section.conteudo img {
+     width: 90%;
+     /* ajusta a largura da imagem */
+     height: auto;
+   }
+
+   aside.perfil {
+     margin-top: 20px;
+     width: 90%;
+   }
+
+   footer {
+     width: 100%;
+     margin-left: 0;
+   }
  }
