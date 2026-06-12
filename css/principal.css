@@ -9,11 +9,14 @@
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    background-color: rgba(185, 191, 152, 0.267);
  }
+ 
 
  header  img {
-  
-   height: 300px;
-   width: 1500px;
+  width: 1500px;
+  height: 300px;
+   min-width: 200px;
+   max-width: 1500px;
+   width: 100%;
  }
 
  header h1 .white {
