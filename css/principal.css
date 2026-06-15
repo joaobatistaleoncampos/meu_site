@@ -42,10 +42,11 @@ header h1 .white {
  }
  
  nav button {
-   width: 368px;
+   width: 360px;
    height: 60px;
    background: rgb(141, 125, 86);
-  
+   /* margin: 12px; */
+   /* margin-left: 20px; */
   
  }
 
