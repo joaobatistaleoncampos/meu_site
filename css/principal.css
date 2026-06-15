@@ -10,16 +10,32 @@
    background-color: rgba(185, 191, 152, 0.267);
  }
  
+ header {
+  width: 100vw; /* ocupa toda a largura da janela */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* evita barra de rolagem lateral */
 
- header  img {
-  width: 1500px;
-  height: 300px;
-   min-width: 200px;
-   max-width: 1500px;
-   width: 100%;
- }
+  height: 350px;
+}
 
- header h1 .white {
+header picture {
+  
+  display: block;
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+  height: 60vh; /* altura proporcional à tela */
+  object-fit: cover; /* mantém o enquadramento sem distorcer */
+
+
+  
+  display: block;
+}
+
+header h1 .white {
    color: white;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif;
  }
@@ -30,7 +46,7 @@
 
 
  nav button {
-   width: 370px;
+   width: 360px;
    height: 60px;
    background: rgb(141, 125, 86);
    /* margin: 12px; */
@@ -114,6 +130,23 @@
    background: rgb(45, 234, 130);
    margin-left: 4px;
  }
+
+
+
+
+@media (max-width: 600px) {
+  header img {
+    height: 40vh; /* reduz suavemente a altura */
+  }
+}
+
+
+
+
+
+
+
+
 
  /* Responsividade para telas menores */
  @media (max-width: 768px) {
