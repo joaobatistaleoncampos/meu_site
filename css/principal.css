@@ -5,7 +5,7 @@
  }
 
  body {
-   margin: 10px;
+   
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    background-color: rgba(185, 191, 152, 0.267);
  }
@@ -16,7 +16,7 @@
   padding: 0;
   overflow: hidden; /* evita barra de rolagem lateral */
   height: 350px;
-  margin-left: 30px;
+
 }
 
 header picture {
