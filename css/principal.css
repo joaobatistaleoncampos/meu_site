@@ -15,8 +15,8 @@
   margin: 0;
   padding: 0;
   overflow: hidden; /* evita barra de rolagem lateral */
-
   height: 350px;
+  margin-left: 30px;
 }
 
 header picture {
@@ -42,11 +42,12 @@ header h1 .white {
  }
  
  nav button {
-   width: 360px;
+   width: 300px;
    height: 60px;
    background: rgb(141, 125, 86);
    /* margin: 12px; */
    /* margin-left: 20px; */
+   margin-left: 30px;
   
  }
 
@@ -119,12 +120,12 @@ header h1 .white {
  }
 
  footer {
-   width: 890px;
+   width: 1500px;
    clear: both;
    text-align: center;
    padding: 15px;
-   background: rgb(45, 234, 130);
-   margin-left: 4px;
+  background: rgb(141, 125, 86);
+  margin: 40px;
  }
 
 
